@@ -1,6 +1,6 @@
 
 iftop
-###tmux
+### tmux
 ```
 ~/.tmux.conf
 export TERM=xterm-256color
@@ -24,7 +24,7 @@ sudo yum clean all
 ```
 sudo yum makecache
 ```
-###VIM
+### VIM
 ```
 sudo yum install cmake
 ```
@@ -57,7 +57,7 @@ make VIMRUNTIMEDIR=/usr/share/vim/vim80
 ```
 sudo make install
 ```
-###phpmyadmin
+### phpmyadmin
 ```
 <Directory /usr/share/phpMyAdmin/>
                                     AddDefaultCharset UTF-8
