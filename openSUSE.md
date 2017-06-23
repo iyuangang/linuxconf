@@ -57,5 +57,7 @@ curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ```
 # Compile YouCompleteMe
 ```
-cd ~/.vim/bundle/YouCompleteMe./install.py --clang-completer
+cd ~/.vim/bundle/YouCompleteMe
+```
+```./install.py --clang-completer
 ```
