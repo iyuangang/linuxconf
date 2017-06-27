@@ -2,9 +2,11 @@
 iftop
 ### tmux
 ```
-~/.tmux.conf
-export TERM=xterm-256color
 ~/.zshrc
+export TERM=xterm-256color
+```
+```
+~/.tmux.conf
 set-option -g default-terminal "screen-256color"
 ```
 
