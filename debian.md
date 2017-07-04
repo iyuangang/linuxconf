@@ -18,6 +18,7 @@ git clean -fdx
     --with-features=huge \
     --enable-multibyte \
     --enable-cscope=yes \
+    --with-python-config-dir=/usr/lib/python2.7/config \
     --enable-perlinterp=yes \
     --enable-rubyinterp=yes \
     --with-ruby-command=/usr/bin/ruby \
