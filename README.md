@@ -1,9 +1,12 @@
 # linuxconf
 ubuntu openSUSE centOS common config
-
+```
 screenfetch
-
+```
+```
 apt-get build-dep
+```
+
 ```
 ssh-keygen -t rsa -C "your_email@youremail.com"
 ```
