@@ -1,3 +1,18 @@
+１、修改软件源
+（１）删除所有软件源sudo zypper mr -da
+（２）添加软件源sudo zypper ar -f 软件源url 自定义name
+（３）刷新软件源sudo zypper ref
+查看已定义软件源sudo zypper lr
+详看sudo zypper --help
+
+```
+sudo zypper ar -f http://mirrors.aliyun.com/opensuse/tumbleweed/repo/oss/ oss 
+sudo zypper ar -f http://mirrors.aliyun.com/opensuse/tumbleweed/repo/non-oss/ Non-OSS
+sudo zypper ar -f http://download.opensuse.org/update/tumbleweed/ Update 
+sudo zypper ar -f http://mirrors.aliyun.com/packman/openSUSE_Tumbleweed/ Packman
+```
+
+
 # Add local reop
 ```
 http://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/oss/
