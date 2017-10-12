@@ -22,10 +22,10 @@ http://mirrors.aliyun.com/packman/openSUSE_Tumbleweed/
 ```
 # Install dependent Libraries
 ```
-sudo zypper install ncurses-devel libgnome2-dev libgnomeui-dev \
-libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
-libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
-python3-dev ruby-dev lua5.1 lua5.1-dev gcc-c++ gtk2-devel
+sudo zypper install ncurses-devel libgnome2-devel libgnomeui-devel \
+libgtk2.0-devel libatk1.0-devel libbonoboui2-devel \
+libcairo2-devel libx11-devel libxpm-devel libxt-devel python-devel \
+python3-devel ruby-devel lua5.1 lua5.1-devel gcc-c++ gtk2-devel gcc
 ```
 # Compile VIM source
 ```
