@@ -13,3 +13,10 @@ and then:
 root@hostname:~# dpkg-reconfigure locales
 ```
 This can help!
+
+# Git push need input Password every time
+
+```
+git remote rm origin
+git remote add origin git@github.com:(user name)/(profile name)
+```
