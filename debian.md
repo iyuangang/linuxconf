@@ -6,7 +6,7 @@ sudo apt-get install vim vim-scripts vim-gtk vim-gnome
 sudo apt-get install build-essential libncurses5-dev
 ```
 ```
-sudo apt-get install python-dev python3-dev ruby-dev liblua5.2-dev libperl-dev libtcl8.6 libgnomeui-dev libx11-dev libxt-dev libxpm-dev
+sudo apt-get install python-dev python3-dev ruby-dev lua5.2 liblua5.2-dev libperl-dev libtcl8.6 libgnomeui-dev libx11-dev libxt-dev libxpm-dev
 ```
 ```
 ./configure -h
