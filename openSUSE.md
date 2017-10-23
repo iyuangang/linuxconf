@@ -26,6 +26,10 @@ sudo zypper install ncurses-devel libgnome2-devel libgnomeui-devel \
 libgtk2.0-devel libatk1.0-devel libbonoboui2-devel \
 libcairo2-devel libx11-devel libxpm-devel libxt-devel python-devel \
 python3-devel ruby-devel lua5.1 lua5.1-devel gcc-c++ gtk2-devel gcc
+
+zypper in vim-plugin-colorschemes go patterns-openSUSE-devel_C_C++ cmake doxygen patterns-openSUSE-devel_python patterns-openSUSE-devel_python3 llvm-clang-devel llvm-devel boost-devel noto-sans-cjksc noto-emoji noto-sans-symbols lua53
+
+
 ```
 # Compile VIM source
 ```
