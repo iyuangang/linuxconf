@@ -28,3 +28,7 @@ git remote add origin git@github.com:iyuangang/linuxconf.git
 ```
 git push origin master
 ```
+change string by one line code
+```
+sudo sed -i "s/oldstring/newstring/g" `grep oldstring -rl yourdir`
+```
