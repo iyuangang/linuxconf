@@ -1,9 +1,6 @@
 language: ruby
 dist: trusty
 sudo: false
-os:
-  - osx
-  - linux
 env:
   global:
     - DEPS=$HOME/deps
