@@ -127,7 +127,6 @@ neovim () {
             ln -s "$HOME/.vim" "$HOME/.config/nvim"
             success "Installed FSC.VIM for neovim"
         fi
-    else
     fi
 }
 
