@@ -117,6 +117,20 @@ setup_plug() {
     debug
 }
 
+neovim () {
+    if [[ -d "$HOME/.config/nvim" ]]; then
+        if [[ "$(readlink $HOME/.config/nvim)" =~ \.vim$ ]]; then
+            success "Installed FSC.VIM for neovim"
+        else
+            mv "$HOME/.config/nvim" "$HOME/.config/nvim_back"
+            success "BackUp $HOME/.config/nvim to $HOME/.config/nvim_back"
+            ln -s "$HOME/.vim" "$HOME/.config/nvim"
+            success "Installed FSC.VIM for neovim"
+        fi
+    else
+    fi
+}
+
 ############################ MAIN()
 variable_set "$HOME"
 program_must_exist "vim"
@@ -130,6 +144,7 @@ sync_repo       "$APP_PATH" \
                 "$REPO_URI" \
                 "$REPO_BRANCH" \
                 "$app_name"
+neovim
 
 setup_plug      "$APP_PATH/vimrc"
 
