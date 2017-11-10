@@ -11,6 +11,8 @@ env:
 matrix:
   include:
     - os: osx
+      env: ENV=vim72
+    - os: osx
       env: ENV=vim8
     - os: linux
       env: ENV=vim72
@@ -33,8 +35,6 @@ matrix:
     - os: linux
       env: ENV=vim8
 install: |
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
   if [ "$ENV" == "vim72" ]; then
     mkdir -p ${DEPS}/bin
     ln -s /usr/bin/vim.nox ${DEPS}/bin/vim
