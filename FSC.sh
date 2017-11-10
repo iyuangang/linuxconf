@@ -144,7 +144,8 @@ sync_repo       "$APP_PATH" \
                 "$REPO_URI" \
                 "$REPO_BRANCH" \
                 "$app_name"
-neovim
+                
+neovim          "$HOME"
 
 setup_plug      "$APP_PATH/vimrc"
 
