@@ -108,7 +108,7 @@ setup_plug() {
 
     vim \
         -u "$1" \
-        "+PlugUpdate" \
+        "+PlugInstall" \
         "+qall"
 
     export SHELL="$system_shell"
