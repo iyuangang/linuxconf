@@ -32,3 +32,7 @@ change string by one line code
 ```
 sudo sed -i "s/oldstring/newstring/g" `grep oldstring -rl yourdir`
 ```
+Chmod user:group dir
+```
+sudo chown nobody:nogroup /home/share
+```
