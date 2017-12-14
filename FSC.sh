@@ -133,5 +133,11 @@ sync_repo       "$APP_PATH" \
 
 setup_plug      "$APP_PATH/vimrc"
 
+msg"     _/_/_/_/    _/_/_/    _/_/_/  _/      _/  _/_/_/  _/      _/   "
+msg"    _/        _/        _/        _/      _/    _/    _/_/  _/_/    "
+msg"   _/_/_/      _/_/    _/        _/      _/    _/    _/  _/  _/     "
+msg"  _/              _/  _/          _/  _/      _/    _/      _/      "
+msg" _/        _/_/_/      _/_/_/      _/      _/_/_/  _/      _/       "
+msg"           version : 1.31      by : iyuangang                       "
 msg             "\nThanks for installing $app_name."
 msg             "© `date +%Y` http://github.com/iyuangang/.vim"
