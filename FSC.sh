@@ -133,12 +133,12 @@ sync_repo       "$APP_PATH" \
 
 setup_plug      "$APP_PATH/vimrc"
 
-echo "\n"
+echo " "
 echo "     _/_/_/_/    _/_/_/    _/_/_/  _/      _/  _/_/_/  _/      _/   "
 echo "    _/        _/        _/        _/      _/    _/    _/_/  _/_/    "
 echo "   _/_/_/      _/_/    _/        _/      _/    _/    _/  _/  _/     "
 echo "  _/              _/  _/          _/  _/      _/    _/      _/      "
 echo " _/        _/_/_/      _/_/_/      _/      _/_/_/  _/      _/       "
-echo "           version : 1.31      by : iyuangang                       "
+echo "           version : 1.14      by : iyuangang                       "
 msg "\nThanks for installing $app_name."
 msg "© `date +%Y` http://github.com/iyuangang/.vim"
