@@ -133,6 +133,7 @@ sync_repo       "$APP_PATH" \
 
 setup_plug      "$APP_PATH/vimrc"
 
+echo "\n"
 echo "     _/_/_/_/    _/_/_/    _/_/_/  _/      _/  _/_/_/  _/      _/   "
 echo "    _/        _/        _/        _/      _/    _/    _/_/  _/_/    "
 echo "   _/_/_/      _/_/    _/        _/      _/    _/    _/  _/  _/     "
