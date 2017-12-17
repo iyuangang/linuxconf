@@ -20,6 +20,25 @@ git config --global user.name "your name"
 git config --global user.email "your email@youremail.com"
 ```
 ```
+gpg --gen-key
+```
+```
+gpg --list-keys
+```
+```
+gpg --armor --output public-key.txt --export [public-key ID]
+```
+```
+git config --global user.signingkey [public-key ID]
+```
+```
+git config --global commit.gpgsign true
+```
+```
+git config -l
+
+```
+```
 git remote rm origin
 ```
 ```
