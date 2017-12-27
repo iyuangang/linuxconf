@@ -81,3 +81,9 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 ./install.py --clang-completer
 ```
+# Translate shell
+```
+git clone https://github.com/soimort/translate-shell && cd translate-shell
+make
+make install
+```
