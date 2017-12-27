@@ -85,5 +85,5 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 git clone https://github.com/soimort/translate-shell && cd translate-shell
 make
-make install
+sudo make install
 ```
