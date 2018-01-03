@@ -28,10 +28,10 @@ git clean -fdx
     --enable-tclinterp=yes \
     --enable-gui=auto \
     --enable-gnome-check \
-    --enable-sniff \
     --enable-xim \
     --enable-fontset \
     --with-x \
+    --with-tlib \
     --with-compiledby=$USER
 
 make && src/vim --version
