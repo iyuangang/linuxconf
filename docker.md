@@ -6,6 +6,29 @@ docker commit iyuangang/mysql:v1.1
 docker attach 80d
 
 
+例子
+
+
+```
+docker network create --driver overlay mynet
+docker network ls
+```
+```
+curl -w "/n" 'https://discovery.etcd.io/new?size=1'
+会返回url
+
+docker service create /
+--name etcd /
+--replicas 1 /
+--network mynet /
+-p 2379:2379 /
+-p 2380:2380 /
+-p 4001:4001 /
+-p 7001:7001 /
+elcolio/etcd:latest /
+-name etcd /
+-discovery=https://discovery.etcd.io/上面的url
+```
 ```
 docker service create /
 --name mysql-galera /
