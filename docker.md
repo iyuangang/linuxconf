@@ -8,7 +8,11 @@ docker attach 80d
 
 例子
 
-
+```
+docker swarm init
+docker swarm join-token worker
+docker swarm join-token manager
+```
 ```
 docker network create --driver overlay mynet
 docker network ls
