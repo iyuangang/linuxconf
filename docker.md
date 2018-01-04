@@ -41,3 +41,14 @@ docker service create /
 --env CLUSTER_NAME=galera /
 perconalab/percona-xtradb-cluster:5.6
 ```
+```
+docker service create /
+--name wordpress /
+--replicas 2 /
+-p 80:80 /
+--network mynet /
+--env WORDPRESS_DB_HOST=mysql-galera /
+--env WORDPRESS_DB_USER=root /
+--env WORDPRESS_DB_PASSWORD=mypassword /
+wordpress
+```
