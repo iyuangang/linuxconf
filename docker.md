@@ -57,5 +57,23 @@ docker exec -it balbabaal /bin/bash
 # apt-get install iproute iputils-ping
 # ip a
 # ping etcd
+PING etcd (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2 (10.0.0.2): icmp_seq=1 ttl=64 time=0.041 ms
+64 bytes from 10.0.0.2 (10.0.0.2): icmp_seq=2 ttl=64 time=0.057 ms
+64 bytes from 10.0.0.2 (10.0.0.2): icmp_seq=3 ttl=64 time=0.059 ms
+^C
+--- etcd ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2028ms
+rtt min/avg/max/mdev = 0.041/0.052/0.059/0.010 ms
+
 # ping mysql-galera
+PING mysql-galera (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4 (10.0.0.4): icmp_seq=1 ttl=64 time=0.024 ms
+64 bytes from 10.0.0.4 (10.0.0.4): icmp_seq=2 ttl=64 time=0.063 ms
+64 bytes from 10.0.0.4 (10.0.0.4): icmp_seq=3 ttl=64 time=0.074 ms
+^C
+--- mysql-galera ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 0.024/0.053/0.074/0.023 ms
+
 ```
