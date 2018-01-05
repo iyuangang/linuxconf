@@ -50,3 +50,12 @@ docker service create \
 --env WORDPRESS_DB_PASSWORD=mypassword \
 wordpress
 ```
+
+```
+docker ps
+docker exec -it balbabaal /bin/bash
+# apt-get install iproute iputils-ping
+# ip a
+# ping etcd
+# ping mysql-galera
+```
