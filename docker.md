@@ -25,8 +25,7 @@ docker service create \
 -p 4001:4001 \
 -p 7001:7001 \
 elcolio/etcd:latest \
--name etcd \
--discovery=https://discovery.etcd.io/上面的url
+-discovery=https://discovery.etcd.io/上面的url注意不要复制到`/n`
 ```
 ```
 docker service create \
