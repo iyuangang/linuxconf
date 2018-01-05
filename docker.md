@@ -1,10 +1,4 @@
-docker image ls
-docker run -it iyuangang/mysql:v1.1 /bin/bash
-docker ps -l
-docker ps -a
-docker commit iyuangang/mysql:v1.1
-docker attach 80d
-
+![avatar](https://raw.githubusercontent.com/iyuangang/linuxconf/master/lALPBbCc1UqbvejNAx3NBLc_1207_797.png)
 
 例子
 
