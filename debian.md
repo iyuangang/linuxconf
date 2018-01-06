@@ -31,7 +31,6 @@ git clean -fdx
     --enable-xim \
     --enable-fontset \
     --with-x \
-    --with-tlib \
     --with-compiledby=$USER
 
 make && src/vim --version
