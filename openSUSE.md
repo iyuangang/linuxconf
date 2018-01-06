@@ -22,13 +22,12 @@ http://mirrors.aliyun.com/packman/openSUSE_Tumbleweed/
 ```
 # Install dependent Libraries
 ```
-sudo zypper install ncurses-devel libgnome2-devel libgnomeui-devel \
+sudo zypper install ncurses-devel libgnome3-devel libgnomeui-devel \
 libgtk2.0-devel libatk1.0-devel libbonoboui2-devel \
 libcairo2-devel libx11-devel libxpm-devel libxt-devel python-devel \
-python3-devel ruby-devel lua5.1 lua5.1-devel gcc-c++ gtk2-devel gcc
-
-zypper in vim-plugin-colorschemes go patterns-openSUSE-devel_C_C++ cmake doxygen patterns-openSUSE-devel_python patterns-openSUSE-devel_python3 llvm-clang-devel llvm-devel boost-devel noto-sans-cjksc noto-emoji noto-sans-symbols lua53
-
+python3-devel ruby-devel lua lua-devel gcc-c++ gtk2-devel gcc \
+llvm-clang-devel llvm-devel boost-devel \
+patterns-openSUSE-devel_C_C++ patterns-openSUSE-devel_python patterns-openSUSE-devel_python3
 
 ```
 # Compile VIM source
@@ -41,14 +40,29 @@ cd vim
 ```
 
 ```
-./configure --with-features=huge \
---enable-multibyte \
---enable-rubyinterp \
---enable-pythoninterp \
---with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
---enable-perlinterp \
---enable-luainterp \
---enable-gui=gtk2 --enable-cscope --prefix=/usr
+./configure -h
+make clean
+git clean -fdx
+
+./configure \
+    --prefix=/usr/local/ \
+    --with-features=huge \
+    --enable-multibyte \
+    --enable-cscope=yes \
+    --with-python-config-dir=/usr/lib/python2.7/config \
+    --enable-perlinterp=yes \
+    --enable-rubyinterp=yes \
+    --with-ruby-command=/usr/bin/ruby \
+    --enable-luainterp=yes \
+    --enable-pythoninterp=yes \
+    --enable-python3interp=yes \
+    --enable-tclinterp=yes \
+    --enable-gui=auto \
+    --enable-gnome-check \
+    --enable-xim \
+    --enable-fontset \
+    --with-x \
+    --with-compiledby=$USER
 ```
 
 ```
