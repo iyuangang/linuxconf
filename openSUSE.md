@@ -65,7 +65,7 @@ git clean -fdx
 ```
 
 ```
-make VIMRUNTIMEDIR=/usr/share/vim/vim80
+make -j 16
 ```
 
 ```
