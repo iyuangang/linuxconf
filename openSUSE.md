@@ -17,7 +17,7 @@ sudo zypper up
 ```
 # Install useful software
 ```
-sudo zypper in git curl cmake vim tmux
+sudo zypper in zsh git curl cmake vim tmux
 ```
 # Install dependent Libraries
 ```
