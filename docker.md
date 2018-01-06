@@ -1,4 +1,4 @@
-![avatar](https://raw.githubusercontent.com/iyuangang/linuxconf/master/lALPBbCc1UqbvejNAx3NBLc_1207_797.png)
+![avatar](https://raw.githubusercontent.com/iyuangang/imagepool/master/docker_swarm_sample.png)
 这几天aliyun 的docker 镜像加速坏了，速度特别慢。按下面的例子，等待镜像下载完毕是可以正常运行的。
 
 例子
