@@ -75,6 +75,7 @@ sudo make install
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 # YouCompleteMe and airline
+Before install VIM add 2 line below to `.vimrc.before.local`
 ```
 let g:spf13_bundle_groups=['general', 'programming', 'misc', 'scala', 'youcompleteme']
 ```
@@ -98,4 +99,5 @@ cd ~/.vim/bundle/YouCompleteMe
 git clone https://github.com/soimort/translate-shell && cd translate-shell
 make
 sudo make install
+trans :zh hello
 ```
