@@ -1,0 +1,20 @@
+./configure \
+    --prefix=/usr/local/ \
+    --with-features=huge \
+    --enable-multibyte \
+    --enable-cscope=yes \
+    --with-python-config-dir=/usr/lib/python2.7/config \
+    --enable-perlinterp=yes \
+    --enable-rubyinterp=yes \
+    --with-ruby-command=/usr/bin/ruby \
+    --enable-luainterp=yes \
+    --enable-pythoninterp=yes \
+    --enable-python3interp=yes \
+    --enable-tclinterp=yes \
+    --enable-gui=auto \
+    --enable-gnome-check \
+    --enable-xim \
+    --enable-fontset \
+    --with-x \
+    --with-compiledby=$USER \
+    --with-lua-prefix=/usr/local/
