@@ -47,7 +47,7 @@ git clean -fdx
     --prefix=/usr/local/ \
     --with-features=huge \
     --with-ruby-command=/usr/bin/ruby \
-    --with-lua-prefix=/usr/local/
+    --with-lua-prefix=/usr/local/ \
     --with-python-config-dir=/usr/lib64/python2.7/config \
     --with-x \
     --with-compiledby=$USER \
