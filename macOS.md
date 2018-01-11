@@ -3,8 +3,8 @@
     --prefix=/usr/local/ \
     --with-features=huge \
     --with-ruby-command=/usr/bin/ruby \
-    --with-lua-prefix=/usr/local/
-    --with-python-config-dir=/usr/lib/python2.7/config \
+    --with-lua-prefix=/usr/local/ \
+    --with-python-config-dir=/usr/lib64/python2.7/config \
     --with-x \
     --with-compiledby=$USER \
     --enable-multibyte \
@@ -18,5 +18,5 @@
     --enable-gui=auto \
     --enable-gnome-check \
     --enable-xim \
-    --enable-fontset \
+    --enable-fontset
 ```
