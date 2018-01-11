@@ -6,10 +6,11 @@
 More detail `sudo zypper --help`
 
 ```
-sudo zypper ar -f http://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/oss/ aliyun_oss 
-sudo zypper ar -f http://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/non-oss/ aliyun_Non-OSS
-sudo zypper ar -f http://mirrors.aliyun.com/opensuse/update/leap/42.3/ aliyun_Update 
-sudo zypper ar -f http://mirrors.aliyun.com/packman/openSUSE_Leap_42.3/ aliyun_Packman
+sudo zypper ar -f https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/oss/ aliyun_OSS 
+sudo zypper ar -f https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/non-oss/ aliyun_Non-OSS
+sudo zypper ar -f https://mirrors.aliyun.com/opensuse/update/leap/42.3/oss/ aliyun_Update_OSS
+sudo zypper ar -f https://mirrors.aliyun.com/opensuse/update/leap/42.3/non-oss/ aliyun_Update_Non-OSS
+sudo zypper ar -f https://mirrors.aliyun.com/packman/openSUSE_Leap_42.3/ aliyun_Packman
 ```
 # Update system
 ```
