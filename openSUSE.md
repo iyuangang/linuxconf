@@ -62,7 +62,7 @@ git clean -fdx
     --enable-gui=auto \
     --enable-gnome-check \
     --enable-xim \
-    --enable-fontset \
+    --enable-fontset
 ```
 
 ```
