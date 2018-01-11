@@ -6,10 +6,10 @@
 More detail `sudo zypper --help`
 
 ```
-sudo zypper ar -f http://mirrors.aliyun.com/opensuse/tumbleweed/repo/oss/ oss 
-sudo zypper ar -f http://mirrors.aliyun.com/opensuse/tumbleweed/repo/non-oss/ Non-OSS
-sudo zypper ar -f http://download.opensuse.org/update/tumbleweed/ Update 
-sudo zypper ar -f http://mirrors.aliyun.com/packman/openSUSE_Tumbleweed/ Packman
+sudo zypper ar -f http://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/oss/ aliyun_oss 
+sudo zypper ar -f http://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/non-oss/ aliyun_Non-OSS
+sudo zypper ar -f http://mirrors.aliyun.com/opensuse/update/leap/42.3/ aliyun_Update 
+sudo zypper ar -f http://mirrors.aliyun.com/packman/openSUSE_Leap_42.3/ aliyun_Packman
 ```
 # Update system
 ```
