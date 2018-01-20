@@ -23,7 +23,7 @@ sudo zypper in zsh git curl cmake vim tmux
 # Install dependent Libraries
 ```
 sudo zypper install ncurses-devel lua lua-devel \
-libcairo2-devel libx11-devel libxpm-devel libxt-devel \
+libcairo2-devel libX11-devel libXpm-devel libXt-devel \
 llvm-clang-devel llvm-devel boost-devel ruby-devel \
 patterns-openSUSE-devel_python patterns-openSUSE-devel_python3 \
 patterns-openSUSE-devel_perl patterns-openSUSE-devel_ruby \
