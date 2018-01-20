@@ -109,3 +109,8 @@ sudo rpm --import linux_signing_key.pub
 sudo zypper ar http://dl.google.com/linux/chrome/rpm/stable/x86_64 Google-Chrome
 sudo zypper in google-chrome-stable
 ```
+
+# Shell weather
+```
+curl wttr.in
+```
