@@ -1,10 +1,6 @@
 # Refresh zypper repo
 1. Remove the origin repo `sudo zypper mr -da`
 2. Add local reop `sudo zypper ar -f repo_url defile_your_reop_name`
-3. Refresh repo cache `sudo zypper ref`
-4. List the repo `sudo zypper lr`
-More detail `sudo zypper --help`
-
 ```
 sudo zypper ar -f https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/oss/ aliyun_OSS 
 sudo zypper ar -f https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/repo/non-oss/ aliyun_Non-OSS
@@ -12,6 +8,10 @@ sudo zypper ar -f https://mirrors.aliyun.com/opensuse/update/leap/42.3/oss/ aliy
 sudo zypper ar -f https://mirrors.aliyun.com/opensuse/update/leap/42.3/non-oss/ aliyun_Update_Non-OSS
 sudo zypper ar -f https://mirrors.aliyun.com/packman/openSUSE_Leap_42.3/ aliyun_Packman
 ```
+3. Refresh repo cache `sudo zypper ref`
+4. List the repo `sudo zypper lr`
+More detail `sudo zypper --help`
+
 # Update system
 ```
 sudo zypper up
