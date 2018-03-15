@@ -84,3 +84,6 @@ sudo make install
 ```
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
+```
+wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh lnmp
+```
