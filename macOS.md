@@ -4,7 +4,6 @@
     --with-features=huge \
     --with-ruby-command=/usr/bin/ruby \
     --with-python-config-dir=/usr/lib/python2.7/config \
-    --with-x \
     --with-luajit –enable-fail-if-missing \
     --with-lua-prefix=/usr/local \
     --with-compiledby=$USER \
