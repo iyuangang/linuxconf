@@ -48,7 +48,6 @@ git clean -fdx
     --with-features=huge \
     --with-ruby-command=/usr/bin/ruby \
     --with-python-config-dir=/usr/lib64/python2.7/config \
-    --with-x \
     --with-compiledby=$USER \
     --enable-multibyte \
     --enable-cscope=yes \
