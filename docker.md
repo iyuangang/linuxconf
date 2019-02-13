@@ -77,3 +77,7 @@ PING mysql-galera (10.0.0.4) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.024/0.053/0.074/0.023 ms
 
 ```
+
+```
+sudo docker stop $(sudo docker ps -a -q)
+```
